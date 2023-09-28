@@ -1,3 +1,7 @@
+import com.assignmentone.Student;
+import java.util.ArrayList;
+import java.util.Scanner;
+
 public class TestDeleteStudent {
     public static void DeleteStudent(ArrayList<Student> students, Scanner scanner){
         
