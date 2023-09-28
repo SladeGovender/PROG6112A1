@@ -1,0 +1,28 @@
+import com.assignmentone.Student;
+import java.util.ArrayList;
+import java.util.Scanner;
+/**
+ *
+ * @author sladegovender
+ */
+public class TestStudentAge_StudentAgeValid {
+    public static void SaveStudent (ArrayList<Student> students, Scanner scanner){
+     int age;
+     System.out.println("Enter the Student Age:");
+        do {
+            while (!scanner.hasNextInt()){
+                scanner.next();
+                System.out.println("Invalid Student Age entered. \n Student Age must be greater or equal to 16 ");
+            }
+            age = scanner.nextInt();
+            if(age < 16){
+                System.out.println("Invalid Student Age entered. \n Student Age must be greater or equal to 16 ");
+                
+            }
+        }
+            while (age > 16); {
+                scanner.nextLine();
+                System.out.println("Enter the Student Email:");
+}
+}
+}
