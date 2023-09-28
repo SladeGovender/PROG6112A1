@@ -5,7 +5,6 @@ import java.util.Scanner;
  * @author sladegovender
  *///Problem : Create a student grading system that allows instructors to input grades for students, calculate their average grades, and generate a report card
 
-class Student {
 public class StudentGradingSystem {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
